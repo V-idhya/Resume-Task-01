@@ -1,0 +1,184 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.container{
+ /* border: 1px solid black;*/
+  display: flex;
+}
+
+.leftbox{
+  background-color:blue;
+  width: 300px;
+  height: 1000px;
+  padding: 40px;
+}
+
+.rightbox{
+  width: 80%;
+}
+
+.user-image{
+  width: 200px;
+  height: 200px;
+  border-radius:100% ;
+}
+
+.name-con{
+ /* border-bottom: 1px solid black;*/
+  margin-top: 50px;
+}
+
+.name-con > h2 {
+  font-family: "Regular", sans-serif;
+  text-transform: uppercase;
+  font-size: 40px;
+  padding-left: 20px;
+
+} 
+
+.name-con > h5 {
+  padding-left: 50px;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-family: "Noto Sans JP","sans-serif";
+  border-bottom: 2px solid gray;
+}
+
+.icon-con > h3 {
+  padding-left: 20px;
+
+}
+.icon-con{
+  color: black;
+}
+
+.contact{
+ /* border-bottom:1px solid white;*/
+  color:black;
+  margin-top: 40px;
+}
+
+.contact > h4{
+  text-transform: uppercase;
+  border-bottom: 2px solid black;
+  font-size: 20px;
+  padding-top: 10px;
+  margin-bottom: 20px;
+  font-family: "Roboto",sans-serif;
+}
+
+.contact-sup-con{
+  /*border-bottom: 1px solid white;*/
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 10px;
+}
+
+.contact-sup-con > .icon-con{
+  width: 50px;
+  line-height: 50px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.contact-sup-con > .text-con > h5{
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+.contact-sup-con > .text-con > p{
+  font-size: 13px;
+}
+.skills > h4{
+  border-bottom: 2px solid black;
+  padding-top: 20px;
+  padding-right: 10px;
+}
+
+.skills-sup-con > h5{
+  text-transform: uppercase;
+  display: flex;
+  padding-left: 10px;
+}
+
+.per-con {
+  height: 10px;
+  margin-top: 10px;
+  background-color: gray;
+  display: flex;
+} 
+
+.per{
+  background-color: white;
+  width: 80%;
+  height: 10px;
+  display: flex;
+  padding-right: 10px;
+}
+.follow > h4{
+  border-bottom: 2px solid black;
+  padding-top: 20px;
+
+}
+
+.follow-sup-con > h5{
+   font-size: 20px;
+   padding-left: 20px;
+}
+
+.follow-sup-con > p{
+  margin-bottom: 10px;
+  padding-left: 30px;
+}
+.right-site-con{
+  /*border-bottom: 2px solid gray;*/
+  display:flex;
+  margin-top: 20px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+}
+
+.right-sup-con > .icon-con {
+  width: 50px;
+  height: 20px;
+  margin-left: 25px;
+  text-align: center;
+  line-height: 20px;
+  background-color: black;
+  border-radius: 100%;
+  color: white;
+}
+.right-sup-con >h3 {
+  line-height: 40px;
+  padding-left: 20px;
+  text-transform: uppercase;
+}
+
+.right-sup-con{
+  font-family: "Roboto",sans-serif;
+  display: flex;
+}
+.right-sup-con > p{
+  padding-left: 20px;
+
+}
+.year-con > h3{
+   color: crimson;
+   padding-left: 30px;
+  
+}
+.year-con > h2{
+  padding-left: 50px;
+  font-size: 15px;
+  font-family: Regular 400;
+
+}
+
+.year-con >p {
+  padding-left: 30px;
+  padding-bottom: 1px;
+}
